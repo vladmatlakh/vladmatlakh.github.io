@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>My site</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Мій сайт</h1>
+        <h2>Ласкаво просимо</h2>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="info.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="form.html">Contacts</a></li>
+            <li><a href="projects.html">My projects</a></li>
+        </ul>
+
+        <!-- Форма для входу користувача -->
+        <form action="#" method="post" class="login-form">
+            <input type="text" placeholder="Login" required>
+            <input type="password" placeholder="Password" required>
+            <input type="submit" value="Sign In">
+        </form>
+    </nav>
+    
+    <main>
+        <p>Сайт студента коледжу ТФК ЛНТУ 22-ІСТ групи</p>
+
+        <!-- Форма коментарів -->
+        <form action="#" method="post" name="comment" id="comment-form" class="comment-form">
+            <p>
+                <input type="text" name="author" id="author" size="25" placeholder="Ім’я" required>
+            </p>
+            <p>
+                <input type="text" name="email" id="email" size="25" placeholder="Пошта" required>
+            </p>
+            <p>
+                <textarea name="comment" id="comment" cols="48" rows="8" placeholder="Ваш коментар" required></textarea>
+            </p>
+            <p>
+                <input type="submit" id="submit" value="Надіслати">
+            </p>
+        </form>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 My site. Всі права захищені.</p>
+    </footer>
+</body>
+</html>
